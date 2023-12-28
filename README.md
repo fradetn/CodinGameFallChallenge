@@ -5,25 +5,27 @@
 	margin-left: 15px;
 	margin-bottom: 10px;
 	text-align: left;">
-  <div style="text-align: center; margin-bottom: 6px">
-    <img src="//cdn.codingame.com/smash-the-code/statement/league_wood_04.png">
-  </div>
-  <p style="text-align: center; font-weight: 700; margin-bottom: 6px;">
-    Ce challenge est basé sur un système de <b>ligues</b>.
-  </p>
-  <div class="statement-league-alert-content">
-    Pour ce challenge, plusieurs ligues pour le même jeu seront disponibles. Quand vous aurez prouvé votre
-    valeur
-    contre le premier Boss, vous accéderez à la ligue supérieure et débloquerez de nouveaux adversaires.<br>
-    <br>
-  </div>
+	<div style="text-align: center; margin-bottom: 6px">
+		<img src="//cdn.codingame.com/smash-the-code/statement/league_wood_04.png">
+	</div>
+	<p style="text-align: center; font-weight: 700; margin-bottom: 6px;">
+		Ce challenge est basé sur un système de <b>ligues</b>.
+	</p>
+	<div class="statement-league-alert-content">
+		Pour ce challenge, plusieurs ligues pour le même jeu seront disponibles. Quand vous aurez prouvé votre
+		valeur contre le premier Boss, vous accéderez à la ligue supérieure et débloquerez de nouveaux adversaires.<br>
+		<br>
+	</div>
 </div>
   
   ObjectifGagnez plus de points que votre adversaire en scannant le plus de poissons.
 
 Pour protéger la vie marine, il est crucial de la comprendre. Visitez les fonds marins à l'aide de vos drones afin de scanner le plus de poissons pour mieux les connaître !
 
- 	Règles
+<h2 style="font-size: 20px;">
+	<span>Règles</span>
+</h2>
+
 Le jeu se joue au tour par tour. A chaque tour, chaque joueur donne une action que ses drones doivent effectuer.
 ![image1](https://github.com/fradetn/CodinGameFallChallenge/assets/115658653/7b89eb4d-7760-44ec-8066-11b65c42e43f)
 
@@ -73,6 +75,7 @@ Pour mieux vous repérer dans les profondeurs sombres, les drones sont équipés
   <li><strong>BL :</strong> si l'entité se trouve quelque part en <strong>bas à gauche</strong> du
     drone.</li>
 </ul>
+
 ![image4](https://github.com/fradetn/CodinGameFallChallenge/assets/115658653/4b315fed-ccce-4c75-adc8-4ee3de75a83f)
 
 Note : Si l'entité partage la même coordonnée x que le drone, elle sera considérée comme étant à gauche. Si l'entité partage la même coordonnée y que le drone, elle sera considérée comme étant en haut.
