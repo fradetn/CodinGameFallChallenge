@@ -275,12 +275,17 @@ Sauvegarde des scans des drones à y ≤ 500
 Réparation des drones en mode urgence à y = 0
 Mise à jour de la vitesse des poissons
 Mise à jour de la vitesse des monstres en fonction de leur cible
- 	
-<span>Protocole de jeu</span>
+
+<h2 style="font-size: 20px;">
+	<span>Protocole de jeu</span>
+</h2>
 Entrées d'Initialisation
-<span>Première ligne</span> : <var>creatureCount</var> un entier pour le nombre de créature en jeu.
-Les <var>creatureCount</var> lignes suivantes : 3 entiers décrivants chaque créature :
-<var>creatureId</var> l'id unique de la créature.
+<span style="color: #838891;
+    font-weight: 700;">
+	Première ligne
+</span> : <strong>creatureCount</strong> un entier pour le nombre de créature en jeu.
+Les <strong>creatureCount</strong> lignes suivantes : 3 entiers décrivants chaque créature :
+<strong>creatureId</strong> l'id unique de la créature.
 color (de 0 à 3) et type (de 0 à 2). Les monstres seront de couleur et type -1 -1.
 Entrées pour un tour de Jeu
 Ligne suivante : myScore votre score.
