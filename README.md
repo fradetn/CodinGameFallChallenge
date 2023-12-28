@@ -287,6 +287,7 @@ Mise à jour de la vitesse des monstres en fonction de leur cible
 <span style="color: #838891;
     font-weight: 700;">
 	Première ligne</span> : 
+ <p style="background-color: #f2bb13; color: #454c55;">creatureCount</p>
  <span style="background-color: #f2bb13; color: #454c55;">creatureCount</span> un entier pour le nombre de créature en jeu.
 Les <span style="background-color: #f2bb13; color: #454c55;">creatureCount</span> lignes suivantes : 3 entiers décrivants chaque créature :
 <span style="background-color: #f2bb13; color: #454c55;">creatureId</span> l'id unique de la créature.
