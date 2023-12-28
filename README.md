@@ -66,13 +66,13 @@ Radar
 Pour mieux vous repérer dans les profondeurs sombres, les drones sont équipés de radars. Pour chaque créature (poisson ou monstre) dans la zone de jeu, le radar indique :
 
 <ul>
-  <li><strong>TL :</strong> si l'entité se trouve quelque part en <strong>haut à gauche</strong> du
+  <li><strong style="background-color: #f2bb13; color: #454c55;">TL :</strong> si l'entité se trouve quelque part en <strong style="background-color: #f2bb13; color: #454c55;">haut à gauche</strong> du
     drone.</li>
-  <li><strong>TR :</strong> si l'entité se trouve quelque part en <strong>haut à droite</strong> du
+  <li><strong style="background-color: #f2bb13; color: #454c55;">TR :</strong> si l'entité se trouve quelque part en <strong style="background-color: #f2bb13; color: #454c55;">haut à droite</strong> du
     drone.</li>
-  <li><strong>BR :</strong> si l'entité se trouve quelque part en <strong>bas à droite</strong> du
+  <li><strong style="background-color: #f2bb13; color: #454c55;">BR :</strong> si l'entité se trouve quelque part en <strong style="background-color: #f2bb13; color: #454c55;">bas à droite</strong> du
     drone.</li>
-  <li><strong>BL :</strong> si l'entité se trouve quelque part en <strong>bas à gauche</strong> du
+  <li><strong style="background-color: #f2bb13; color: #454c55;">BL :</strong> si l'entité se trouve quelque part en <strong style="background-color: #f2bb13; color: #454c55;">bas à gauche</strong> du
     drone.</li>
 </ul>
 
@@ -286,49 +286,49 @@ Mise à jour de la vitesse des monstres en fonction de leur cible
 
 <span style="color: #838891;
     font-weight: 700;">
-	Première ligne</span> : <strong>creatureCount</strong> un entier pour le nombre de créature en jeu.
-Les <strong>creatureCount</strong> lignes suivantes : 3 entiers décrivants chaque créature :
-<strong>creatureId</strong> l'id unique de la créature.
+	Première ligne</span> : <strong style="background-color: #f2bb13; color: #454c55;">creatureCount</strong> un entier pour le nombre de créature en jeu.
+Les <strong style="background-color: #f2bb13; color: #454c55;">creatureCount</strong> lignes suivantes : 3 entiers décrivants chaque créature :
+<strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> l'id unique de la créature.
 color (de 0 à 3) et type (de 0 à 2). Les monstres seront de couleur et type -1 -1.
 Entrées pour un tour de Jeu
-Ligne suivante : <strong>myScore</strong> votre score.
-Ligne suivante : <strong>foeScore</strong> le score de votre adversaire.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">myScore</strong> votre score.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">foeScore</strong> le score de votre adversaire.
 
-Ligne suivante : <strong>myScanCount</strong> le nombre de scans sauvegardés.
-Les <strong>myScanCount</strong> lignes suivantes : <strong>creatureId</strong> pour chaque scan sauvegardé.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">myScanCount</strong> le nombre de scans sauvegardés.
+Les <strong style="background-color: #f2bb13; color: #454c55;">myScanCount</strong> lignes suivantes : <strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> pour chaque scan sauvegardé.
 
-Ligne suivante : <strong>foeScanCount</strong> le nombre de scans sauvegardés par votre adversaire/
-Les <strong>foeScanCount</strong> lignes suivantes: <strong>creatureId</strong> pour chaque scan sauvegardé par votre adversaire.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">foeScanCount</strong> le nombre de scans sauvegardés par votre adversaire/
+Les <strong style="background-color: #f2bb13; color: #454c55;">foeScanCount</strong> lignes suivantes: <strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> pour chaque scan sauvegardé par votre adversaire.
 
-Ligne suivante : <strong>myDroneCount</strong> le nombre de drones que vous contrôlez.
-Les <strong>myDroneCount</strong> lignes suivantes :
-<strong>droneId</strong> : l'id unique du drone.
-<strong>droneX</strong> et <strong>droneY</strong> : la position du drone.
-<strong>emergency</strong> : 1 si un drone est en mode urgence, 0 sinon.
-<strong>battery</strong> : le niveau de batterie du drone.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">myDroneCount</strong> le nombre de drones que vous contrôlez.
+Les <strong style="background-color: #f2bb13; color: #454c55;">myDroneCount</strong> lignes suivantes :
+<strong style="background-color: #f2bb13; color: #454c55;">droneId</strong> : l'id unique du drone.
+<strong style="background-color: #f2bb13; color: #454c55;">droneX</strong> et <strong style="background-color: #f2bb13; color: #454c55;">droneY</strong> : la position du drone.
+<strong style="background-color: #f2bb13; color: #454c55;">emergency</strong> : 1 si un drone est en mode urgence, 0 sinon.
+<strong style="background-color: #f2bb13; color: #454c55;">battery</strong> : le niveau de batterie du drone.
 
-Ligne suivante : <strong>foeDroneCount</strong> le nombre de drones de votre adversaire.
-Les <strong>foeDroneCount</strong> lignes suivantes :
-<strong>droneId</strong> : l'id unique du drone.
-<strong>droneX</strong> et <strong>droneY</strong> : la position du drone.
-<strong>emergency</strong> : 1 si un drone est en mode urgence, 0 sinon.
-<strong>battery</strong> : le niveau de batterie du drone.
-Ligne suivante : <strong>droneScanCount</strong> le nombre de scans non sauvegardés.
-Les <strong>droneScanCount</strong> lignes suivantes : <strong>droneId</strong> et <strong>creatureId</strong> décrivant quel drone contient le scan de quel poisson.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">foeDroneCount</strong> le nombre de drones de votre adversaire.
+Les <strong style="background-color: #f2bb13; color: #454c55;">foeDroneCount</strong> lignes suivantes :
+<strong style="background-color: #f2bb13; color: #454c55;">droneId</strong> : l'id unique du drone.
+<strong style="background-color: #f2bb13; color: #454c55;">droneX</strong> et <strong style="background-color: #f2bb13; color: #454c55;">droneY</strong> : la position du drone.
+<strong style="background-color: #f2bb13; color: #454c55;">emergency</strong> : 1 si un drone est en mode urgence, 0 sinon.
+<strong style="background-color: #f2bb13; color: #454c55;">battery</strong> : le niveau de batterie du drone.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">droneScanCount</strong> le nombre de scans non sauvegardés.
+Les <strong style="background-color: #f2bb13; color: #454c55;">droneScanCount</strong> lignes suivantes : <strong style="background-color: #f2bb13; color: #454c55;">droneId</strong> et <strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> décrivant quel drone contient le scan de quel poisson.
 
-Ligne suivante : <strong>visibleCreatureCount</strong> le nombre de créatures dans le rayon de lumière de vos drones.
-Les <strong>visibleCreatureCount</strong> lignes suivantes :
-<strong>creatureId</strong> : l'id unique de la créature.
-<strong>creatureX</strong> and <strong>creatureY</strong> : la position de la créature.
-<strong>creatureVx</strong> and <strong>creatureVy</strong> la vitesse actuelle de la créature.
-Ligne suivante : <strong>radarBlipCount</strong>.
-Les <strong>radarBlipCount</strong> lignes suivantes : Deux entiers <strong>droneId</strong>, <strong>creatureId</strong> et une string <strong>radar</strong> indiquant la position relative entre chaque créature et chacun de vos drones. <strong>radar</strong> peut valoir :
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">visibleCreatureCount</strong> le nombre de créatures dans le rayon de lumière de vos drones.
+Les <strong style="background-color: #f2bb13; color: #454c55;">visibleCreatureCount</strong> lignes suivantes :
+<strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> : l'id unique de la créature.
+<strong style="background-color: #f2bb13; color: #454c55;">creatureX</strong> and <strong style="background-color: #f2bb13; color: #454c55;">creatureY</strong> : la position de la créature.
+<strong style="background-color: #f2bb13; color: #454c55;">creatureVx</strong> and <strong style="background-color: #f2bb13; color: #454c55;">creatureVy</strong> la vitesse actuelle de la créature.
+Ligne suivante : <strong style="background-color: #f2bb13; color: #454c55;">radarBlipCount</strong>.
+Les <strong style="background-color: #f2bb13; color: #454c55;">radarBlipCount</strong> lignes suivantes : Deux entiers <strong style="background-color: #f2bb13; color: #454c55;">droneId</strong>, <strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> et une string <strong style="background-color: #f2bb13; color: #454c55;">radar</strong> indiquant la position relative entre chaque créature et chacun de vos drones. <strong style="background-color: #f2bb13; color: #454c55;">radar</strong> peut valoir :
 TL : la créature est en haut à gauche du drone.
 TR : la créature est en haut à droite du drone.
 BR : la créature est en bas à droite du drone.
 BL : la créature est en bas à gauche du drone.
 Sortie
-Les <strong>myDroneCount</strong> lignes suivantes : une instruction valide pour chaque drone, dans le même ordre dans lequel les drones ont été donnés :
+Les <strong style="background-color: #f2bb13; color: #454c55;">myDroneCount</strong> lignes suivantes : une instruction valide pour chaque drone, dans le même ordre dans lequel les drones ont été donnés :
 MOVE x y light : fait bouger le drone vers (x,y), avec les moteurs allumés.
 WAIT light. Les moteurs sont éteints. Le drone va couler mais peut toujours scanner les poissons aux alentours.
 light à 1 pour activer la lumière augmentée, 0 sinon.
