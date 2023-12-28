@@ -286,7 +286,8 @@ Mise à jour de la vitesse des monstres en fonction de leur cible
 
 <span style="color: #838891;
     font-weight: 700;">
-	Première ligne</span> : <strong style="background-color: #f2bb13; color: #454c55;">creatureCount</strong> un entier pour le nombre de créature en jeu.
+	Première ligne</span> : <strong style="background-color: #f2bb13;
+					color: #454c55;">creatureCount</strong> un entier pour le nombre de créature en jeu.
 Les <strong style="background-color: #f2bb13; color: #454c55;">creatureCount</strong> lignes suivantes : 3 entiers décrivants chaque créature :
 <strong style="background-color: #f2bb13; color: #454c55;">creatureId</strong> l'id unique de la créature.
 color (de 0 à 3) et type (de 0 à 2). Les monstres seront de couleur et type -1 -1.
