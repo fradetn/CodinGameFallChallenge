@@ -9,8 +9,6 @@ Le dépôt est organisé de manière à ce que chaque problème ait son propre d
 root
 │
 ├── README.md
-├── requirements.txt (s'il y a des dépendances)
-│
 └── FallChallenge
     ├── 2023
     |   ├── REAMDE.md
