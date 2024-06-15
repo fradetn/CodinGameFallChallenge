@@ -5,7 +5,7 @@ Ce dépôt contient mes solutions en Python aux problèmes des CodinGame Fall Ch
 ## Structure du Dépôt
 
 Le dépôt est organisé de manière à ce que chaque problème ait son propre dossier contenant le script de solution ainsi que des fichiers de ressources si nécessaire.
-root
+```
 root
 │
 ├── README.md
@@ -19,3 +19,4 @@ root
     └── 2024
         ├── REAMDE.md
         └── script.py
+```
